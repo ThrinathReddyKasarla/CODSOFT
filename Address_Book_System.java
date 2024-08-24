@@ -2,10 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
+
+
 class Contact {
-    private String name;
-    private String phoneNumber;
-    private String emailAddress;
+    public String name;
+    public String phoneNumber;
+    public  String emailAddress;
 
     public Contact(String name, String phoneNumber, String emailAddress) {
         this.name = name;
