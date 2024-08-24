@@ -1,0 +1,161 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi",
+        "hey",
+        "hello",
+        "good day"
+      ],
+      "responses": [
+        "<strong>FEMINAINSIGHT -Empowering Women Against PCOS:</strong> Your Journey to Health and Wellness Begins Here. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye"],
+      "responses": [
+        "Goodbye! Take care and remember, we're always here to support you with any PCOS-related queries.",
+        "See you later! Have a great day and feel free to reach out if you need more information about PCOS.",
+        "Bye! Hope to see you soon. Stay informed and take care of your health."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that's helpful", "thank's a lot!"],
+      "responses": ["You're welcome! If you have any more questions about PCOS, feel free to ask.", "Glad I could help! Don't hesitate to reach out for more information on PCOS.", "My pleasure! I'm here to provide any additional details you need about PCOS."]
+    },
+    {
+      "tag": "symptoms_info",
+      "patterns": [
+        "symptoms of PCOS",
+        "PCOS symptoms",
+        "PCOS signs"
+      ],
+      "responses": [
+        "Common symptoms of PCOS include irregular periods, excessive hair growth (especially on the face, chest, or back), acne, and weight gain. Some women also experience thinning hair on the scalp, darkening of the skin (particularly along neck creases, in the groin, and underneath breasts), and skin tags in the armpit or neck area."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "diagnosis_info",
+      "patterns": [
+        "diagnosis of PCOS",
+        "PCOS diagnosis",
+        "how is PCOS diagnosed?"
+      ],
+      "responses": [
+        "Diagnosing PCOS typically involves a thorough medical history review, a physical exam to look for signs of PCOS such as excess hair growth and acne, blood tests to measure hormone levels, and an ultrasound to check for cysts on the ovaries. The presence of at least two of these indicators usually confirms a diagnosis."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "treatment_info",
+      "patterns": [
+        "treatment for PCOS",
+        "PCOS treatment",
+        "how is PCOS treated?"
+      ],
+      "responses": [
+        "Treatment for PCOS often includes lifestyle changes, such as adopting a healthy diet and regular exercise to manage weight and insulin levels. Medications may be prescribed to regulate menstrual cycles, manage symptoms like acne and hair growth, and address insulin resistance. In some cases, fertility treatments are considered if pregnancy is desired."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "support_info",
+      "patterns": [
+        "PCOS support",
+        "support for PCOS",
+        "where to find PCOS support?"
+      ],
+      "responses": [
+        "There are various online forums, support groups, and organizations dedicated to supporting individuals with PCOS. Websites like PCOS Challenge, Verity (UK), and SoulCysters provide valuable resources and community support. Would you like more specific recommendations?"
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "pcos_info",
+      "patterns": [
+        "PCOS information",
+        "what is PCOS?",
+        "explain PCOS"
+      ],
+      "responses": [
+        "PCOS stands for Polycystic Ovary Syndrome. It is a hormonal disorder common among women of reproductive age. Women with PCOS may have infrequent or prolonged menstrual periods or excess male hormone (androgen) levels. The ovaries may develop numerous small collections of fluid (follicles) and fail to regularly release eggs."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "causes_info",
+      "patterns": [
+        "PCOS causes",
+        "what causes PCOS?",
+        "why do people get PCOS?"
+      ],
+      "responses": [
+        "The exact cause of PCOS is unknown, but it's believed to involve a combination of genetic and environmental factors. Factors that might play a role include excess insulin, low-grade inflammation, heredity, and excess androgen production. These factors contribute to the hormonal imbalances and symptoms associated with PCOS."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "fertility_info",
+      "patterns": [
+        "PCOS and fertility",
+        "fertility with PCOS",
+        "can PCOS affect fertility?"
+      ],
+      "responses": [
+        "Yes, PCOS can affect fertility by disrupting the normal ovulation process. Women with PCOS may experience irregular ovulation or anovulation (lack of ovulation), making it harder to get pregnant. However, with the right treatment and lifestyle changes, many women with PCOS can conceive."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "lifestyle_changes",
+      "patterns": [
+        "PCOS lifestyle changes",
+        "what lifestyle changes can help with PCOS?",
+        "how to manage PCOS naturally?"
+      ],
+      "responses": [
+        "Lifestyle changes that can help manage PCOS include maintaining a healthy diet rich in whole foods, regular physical activity, managing stress, and maintaining a healthy weight. These changes can improve insulin resistance, balance hormones, and alleviate symptoms. Regular check-ups with a healthcare provider are also important."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "additional_info",
+      "patterns": [
+        "additional PCOS information",
+        "what should I do now if I have PCOS?",
+        "PCOS next steps"
+      ],
+      "responses": [
+        "If you've been diagnosed with PCOS, it's important to follow a treatment plan prescribed by your healthcare provider. You can visit our prevention page for tips on managing symptoms and preventing complications. Maintaining a healthy lifestyle through diet and exercise, taking prescribed medications, and having regular check-ups can help manage PCOS effectively."
+      ],
+      "context_filter": "menu"
+    },
+    {
+      "tag": "take_test",
+      "patterns": [
+        "PCOS test",
+        "how to test for PCOS?",
+        "where to get tested for PCOS?"
+      ],
+      "responses": [
+        "To test for PCOS, you can visit our prediction page, provide the required details, and our system will generate a prediction based on the information provided."
+      ],
+      "context_filter": "menu"
+      },
+      {
+      "tag": "help_need",
+      "patterns": [
+      "I have PCOS",
+      "I need help with PCOS",
+      "help me with PCOS"
+      ],
+      "responses": [
+      "Please visit our prevention page. It will guide you further on managing PCOS effectively."
+      ]
+      }
+      ]
+      }
